@@ -3,6 +3,14 @@
 - 조건 : 대문자X, 소문자x가 입력 시 입력 받기 중단
 '''
 import time
+from datetime import date, datetime
+
+today = date.today()
+print(today.year, today.month, today.day)
+
+today2 = datetime.today()
+print(today2.year, today2.month, today2.day, today2.hour, today2.minute, today2.second)
+
 
 filename = "ex_test_file.txt"
 # file = open(filename, mode="w", encoding="utf8")
